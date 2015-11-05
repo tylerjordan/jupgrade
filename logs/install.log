@@ -1,0 +1,68 @@
+2015-04-15 14:59:48,811:10.92.18.55: Starting the software upgrade process: .\junos\jinstall-ex-2200-12.3R8.7-domestic-signed.tgz
+2015-04-15 14:59:48,811:10.92.18.55: computing local checksum on: .\junos\jinstall-ex-2200-12.3R8.7-domestic-signed.tgz
+2015-04-15 14:59:49,911:10.92.18.55: cleaning filesystem ...
+2015-04-15 15:00:01,513:paramiko.transport: starting thread (client mode): 0x3568850L
+2015-04-15 15:00:01,624:paramiko.transport: Connected (version 2.0, client OpenSSH_6.4)
+2015-04-15 15:00:01,813:paramiko.transport: kex algos:[u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ssh-dss', u'ecdsa-sha2-nistp256'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2015-04-15 15:00:01,813:paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+2015-04-15 15:00:01,813:paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-rsa; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+2015-04-15 15:00:02,084:paramiko.transport: Switch to new keys ...
+2015-04-15 15:00:02,094:paramiko.transport: Adding ssh-rsa host key for 10.92.18.55: c0248ad06cee4a780ebb7f3e2c12b19e
+2015-04-15 15:00:02,094:paramiko.transport: Trying discovered key 5bb0370166c6d961b6d0bad7a6f94b0b in C:\Users\tjordan/.ssh/id_rsa
+2015-04-15 15:00:02,384:paramiko.transport: userauth is OK
+2015-04-15 15:00:02,793:paramiko.transport: Authentication (publickey) failed.
+2015-04-15 15:00:02,904:paramiko.transport: userauth is OK
+2015-04-15 15:00:03,003:paramiko.transport: Authentication (password) successful!
+2015-04-15 15:00:03,013:paramiko.transport: [chan 0] Max packet in: 32768 bytes
+2015-04-15 15:00:03,114:paramiko.transport: [chan 0] Max packet out: 32768 bytes
+2015-04-15 15:00:03,114:paramiko.transport: Secsh channel 0 opened.
+2015-04-15 15:00:03,213:paramiko.transport: [chan 0] Sesch channel 0 request ok
+2015-04-15 15:00:24,187:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 9961472 / 99611421 (10%)
+2015-04-15 15:00:44,801:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 19922944 / 99611421 (20%)
+2015-04-15 15:01:03,053:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 29884416 / 99611421 (30%)
+2015-04-15 15:01:19,947:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 39845888 / 99611421 (40%)
+2015-04-15 15:01:36,890:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 49807360 / 99611421 (50%)
+2015-04-15 15:01:56,292:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 59768832 / 99611421 (60%)
+2015-04-15 15:02:14,496:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 69730304 / 99611421 (70%)
+2015-04-15 15:02:31,868:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 79691776 / 99611421 (80%)
+2015-04-15 15:02:49,683:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 89653248 / 99611421 (90%)
+2015-04-15 15:03:08,003:10.92.18.55: jinstall-ex-2200-12.3R8.7-domestic-signed.tgz: 99611421 / 99611421 (100%)
+2015-04-15 15:03:08,153:paramiko.transport: [chan 0] EOF sent (0)
+2015-04-15 15:03:08,213:paramiko.transport: EOF in transport thread
+2015-04-15 15:03:08,213:10.92.18.55: computing remote checksum on: /var/tmp/jinstall-ex-2200-12.3R8.7-domestic-signed.tgz
+2015-04-15 15:03:08,963:10.92.18.55: checksum check passed.
+2015-04-15 15:03:08,963:10.92.18.55: validating software against current config, please be patient ...
+2015-04-24 08:53:41,121:10.92.18.61: Starting the software upgrade process: .\junos\jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz
+2015-04-24 08:53:41,121:10.92.18.61: computing local checksum on: .\junos\jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz
+2015-04-24 08:54:01,473:10.92.18.61: cleaning filesystem ...
+2015-04-24 08:54:12,940:paramiko.transport: starting thread (client mode): 0x36a6850L
+2015-04-24 08:54:13,052:paramiko.transport: Connected (version 2.0, client OpenSSH_6.4)
+2015-04-24 08:54:13,253:paramiko.transport: kex algos:[u'ecdh-sha2-nistp256', u'ecdh-sha2-nistp384', u'ecdh-sha2-nistp521', u'diffie-hellman-group-exchange-sha256', u'diffie-hellman-group-exchange-sha1', u'diffie-hellman-group14-sha1', u'diffie-hellman-group1-sha1'] server key:[u'ssh-rsa', u'ssh-dss', u'ecdsa-sha2-nistp256'] client encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] server encrypt:[u'aes128-ctr', u'aes192-ctr', u'aes256-ctr', u'arcfour256', u'arcfour128', u'aes128-gcm@openssh.com', u'aes256-gcm@openssh.com', u'aes128-cbc', u'3des-cbc', u'blowfish-cbc', u'cast128-cbc', u'aes192-cbc', u'aes256-cbc', u'arcfour', u'rijndael-cbc@lysator.liu.se'] client mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] server mac:[u'hmac-md5-etm@openssh.com', u'hmac-sha1-etm@openssh.com', u'umac-64-etm@openssh.com', u'umac-128-etm@openssh.com', u'hmac-sha2-256-etm@openssh.com', u'hmac-sha2-512-etm@openssh.com', u'hmac-ripemd160-etm@openssh.com', u'hmac-sha1-96-etm@openssh.com', u'hmac-md5-96-etm@openssh.com', u'hmac-md5', u'hmac-sha1', u'umac-64@openssh.com', u'umac-128@openssh.com', u'hmac-sha2-256', u'hmac-sha2-512', u'hmac-ripemd160', u'hmac-ripemd160@openssh.com', u'hmac-sha1-96', u'hmac-md5-96'] client compress:[u'none', u'zlib@openssh.com'] server compress:[u'none', u'zlib@openssh.com'] client lang:[u''] server lang:[u''] kex follows?False
+2015-04-24 08:54:13,282:paramiko.transport: Ciphers agreed: local=aes128-ctr, remote=aes128-ctr
+2015-04-24 08:54:13,282:paramiko.transport: using kex diffie-hellman-group14-sha1; server key type ssh-rsa; cipher: local aes128-ctr, remote aes128-ctr; mac: local hmac-sha1, remote hmac-sha1; compression: local none, remote none
+2015-04-24 08:54:13,529:paramiko.transport: Switch to new keys ...
+2015-04-24 08:54:13,539:paramiko.transport: Adding ssh-rsa host key for 10.92.18.61: 19e061d70c530a7d5c5c8edf8fdec9e4
+2015-04-24 08:54:13,885:paramiko.transport: Trying discovered key 5bb0370166c6d961b6d0bad7a6f94b0b in C:\Users\tjordan/.ssh/id_rsa
+2015-04-24 08:54:13,989:paramiko.transport: userauth is OK
+2015-04-24 08:54:14,349:paramiko.transport: Authentication (publickey) failed.
+2015-04-24 08:54:14,476:paramiko.transport: userauth is OK
+2015-04-24 08:54:14,578:paramiko.transport: Authentication (password) successful!
+2015-04-24 08:54:14,582:paramiko.transport: [chan 0] Max packet in: 32768 bytes
+2015-04-24 08:54:14,683:paramiko.transport: [chan 0] Max packet out: 32768 bytes
+2015-04-24 08:54:14,683:paramiko.transport: Secsh channel 0 opened.
+2015-04-24 08:54:14,782:paramiko.transport: [chan 0] Sesch channel 0 request ok
+2015-04-24 08:54:48,368:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 15810560 / 158093816 (10%)
+2015-04-24 08:55:16,430:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 31621120 / 158093816 (20%)
+2015-04-24 08:55:45,174:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 47431680 / 158093816 (30%)
+2015-04-24 08:56:14,117:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 63242240 / 158093816 (40%)
+2015-04-24 08:56:44,440:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 79052800 / 158093816 (50%)
+2015-04-24 08:57:11,684:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 94863360 / 158093816 (60%)
+2015-04-24 08:57:42,855:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 110673920 / 158093816 (70%)
+2015-04-24 08:58:11,842:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 126484480 / 158093816 (80%)
+2015-04-24 08:58:40,214:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 142295040 / 158093816 (90%)
+2015-04-24 08:59:11,710:10.92.18.61: jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz: 158093816 / 158093816 (100%)
+2015-04-24 08:59:11,823:paramiko.transport: [chan 0] EOF sent (0)
+2015-04-24 08:59:11,911:paramiko.transport: EOF in transport thread
+2015-04-24 08:59:11,937:10.92.18.61: computing remote checksum on: /var/tmp/jinstall-ex-4300-13.2X51-D35.3-domestic-signed.tgz
+2015-04-24 08:59:12,950:10.92.18.61: checksum check passed.
+2015-04-24 08:59:12,950:10.92.18.61: validating software against current config, please be patient ...
